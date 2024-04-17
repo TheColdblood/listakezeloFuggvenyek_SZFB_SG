@@ -1,6 +1,7 @@
 import { emberekLISTA } from "./adat.js";
 import { rendez, szures, torol } from "./adatKezelo.js";
 import { htmlOsszeallit, megjelenit } from "./listaMegjelenit.js";
+import { ujAdat } from "./urlapkezelo.js";
 /* 
 feladatspecifikáció: 
 jelenítsük meg a listánkat egy táblázatban, majd a listát tudjuk rendezni pl név szerint, ha rákattintunk a táblázat fejlécére, akkor rendezze be a táblázat sorait. 
@@ -22,7 +23,7 @@ let irany = 1; /* 1 - növekvő rendezés , -1 csökkenő rendezés */
 init(emberekLISTA);
 szuresEsemeny();
 
-function init(lista) {
+export function init(lista) {
   megjelenit(htmlOsszeallit(lista));
   rendezEsemeny();
   torolEsemeny();
@@ -59,3 +60,7 @@ function torolEsemeny() {
     init(LISTA);
   });
 }
+
+
+ujAdat(emberekLISTA)
+init(emberekLISTA)
