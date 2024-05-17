@@ -13,7 +13,7 @@ export function htmlOsszeallit(lista) {
       //console.log("kulcs: ", kulcs, elem[kulcs]);
       txt += `<td>${elem[kulcs]}</td>`;
     }
-    txt += `<td class='torol' id=${index}>🗑️</td>`;
+    txt += `<td class='torol' id=${elem.id}>🗑️</td>`;
     txt += `</tr>`;
   });
   txt += "</tbody></table>";

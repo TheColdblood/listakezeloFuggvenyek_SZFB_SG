@@ -1,0 +1,40 @@
+{
+  "emberekLISTA": [
+    {
+      "nev": "Jenő",
+      "kor": 23,
+      "nem": true,
+      "id": "f865"
+    },
+    {
+      "nev": "Juli",
+      "kor": 33,
+      "nem": false,
+      "id": "9cc3"
+    },
+    {
+      "nev": "Géza",
+      "kor": 23,
+      "nem": true,
+      "id": "9c95"
+    },
+    {
+      "nev": "Ádám",
+      "kor": 64,
+      "nem": false,
+      "id": "42b6"
+    },
+    {
+      "nev": "Béla",
+      "kor": 32,
+      "nem": true,
+      "id": "b49d"
+    },
+    {
+      "id": "d1f9",
+      "nev": "Muhhamad abdul amir abdullah a III.",
+      "kor": "21",
+      "nem": true
+    }
+  ]
+}
